@@ -1,0 +1,26 @@
+.form {
+  padding: 39px 79px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 33px;
+}
+.subtitle {
+  font-size: 14px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recoveryForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
