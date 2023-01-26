@@ -16,13 +16,13 @@ const Header = () => {
 
   return (
     <>
-      <div className="backgraund">
+      <div className={styles.backgraund}>
         <BackgroundSVG />
       </div>
       <Navbar bg="light" expand="lg">
         <Button onClick={handleShow} variant="link">Войти</Button>
         {show && (
-          <Modal show={show} onClick={handleShow}>
+          <Modal show={show} onClick={handleShow} onHide={handleClose}>
             <LoginForm />
             </Modal>
         )}
